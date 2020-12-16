@@ -16,7 +16,7 @@ body {
 
 h1 {
   font-size: 80px;
-  color: #ff0000 ;
+  color: hotpink ;
   text-align: center;
   text-shadow: 4px 4px black;
 }
@@ -66,26 +66,6 @@ nav {
   /* background-color: rgb(0, 180, 255); Black */
 }
 
-
-/* The navigation menu links */
-/* .nav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #ffffff;
-  display: block;
-} */
-
-
-/* When you mouse over the navigation links, change their color */
-/* .nav a:hover {
-  color: #070707;
-  font-size: 200%;
-}
-
-/*  */
-
-/* Style page content */
 main {
   margin-left: 250px; /* Same as the width of the sidebar */
 }
@@ -125,7 +105,7 @@ nav .current {
     /* background-color: #ff0000; */
     border: 4px dotted black;
     font-weight: 900;
-    color: White;
+    color: black;
   
   } 
 
@@ -150,6 +130,7 @@ p {
     /* padding-top: 20px; */
     text-align: start;
 }
+
 p.turtles {
     margin-left: 30px;
     /* padding-top: 20px; */
@@ -164,6 +145,7 @@ p.skills {
   text-align: center;
   font-weight: bold;
 }
+
 img {
     /*display: block;*/
     width: 100%;
@@ -180,6 +162,11 @@ img.turtles {
     margin-left: auto;
     margin-right: auto;
     max-width:300px;
+}
+
+img.resumeSticker {
+  width: 100%;
+  border: none;
 }
 
 /* this is for interactive resume */
@@ -300,3 +287,75 @@ footer p {
       max-width: 100%;
     }
   }
+
+  /* Forms code to format the form */
+form {
+    font-family: "Spartan";
+  
+  }
+
+  .grid-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  legend { 
+    font-size: 150%;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  label {
+    display: inline-block;
+    margin-right:10px;
+    width:50%;
+  }
+  
+  input.contactForm {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  span{
+    margin-left:20%;
+    font-family: "Spartan";
+    font-weight: bold;
+  }
+  
+  textarea{
+    width: 50%;
+    height: 35vh;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  
+  input[type=checkbox]{
+      display:inline;
+      width:inherit;
+  }
+  
+  input[type=submit] {
+    background-color: #38a5ff;
+    color: black;
+    font-family: "Spartan";
+    font-weight: 900;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  } */
